@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newFile"
+        android:icon="@mipmap/file"
+        android:title="新建"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/file"
+        android:icon="@mipmap/open"
+        android:title="打开"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/complie"
+        android:icon="@mipmap/complie"
+        android:title="编译"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/setting"
+        android:icon="@mipmap/setting"
+        android:title="设置"
+        app:showAsAction="never"></item>
+
+</menu>

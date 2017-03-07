@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/error_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical"
+                    android:text="错误等级"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/bg_error_select">
+
+                    <Button
+                        android:id="@+id/level"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/bg_level" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/cancle"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/cancle" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
